@@ -1,0 +1,16 @@
+.no-favorites {
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+    width: 60%;    
+}
+
+.no-favorites div {
+    padding: 0.5rem 0;
+}
+
+.grid.favorites {
+    border: 1px solid #4372aa;
+    display: grid;
+    grid-template-columns: 1fr 1.25fr repeat(2, 0.75fr) 1.5fr 1fr;
+}

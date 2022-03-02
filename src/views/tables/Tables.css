@@ -1,0 +1,79 @@
+
+.section {
+    padding: 1.5rem 0;
+}
+
+.section > div.button {
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+.scrim {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .5;
+}
+
+.grid {
+    animation: fadein 0.25s ease-in;
+}
+
+.grid.search {
+    border: 1px solid #4372aa;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr) repeat(2, 0.5fr) 1fr;
+    grid-template-rows: auto auto repeat(2, 1fr);
+}
+
+.grid > div {
+    padding: 0.25rem;
+    border: 1px solid #666666;
+    max-height: 15rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.grid > div.button {
+    text-align: center;
+}
+
+.grid > div:not(.grid-header) {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.grid img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
+
+.grid-header {
+    background-color: #cacfe1;
+}
+
+.grid span {
+    display: block;
+}
+
+@keyframes fadein {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    input[type='text'] {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .grid button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }

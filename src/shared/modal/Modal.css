@@ -1,0 +1,45 @@
+.modal {
+    border: 1px solid #666666;
+    border-radius: 3px;
+    z-index: 1;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.modal-header {
+    color: #4372aa;
+    font-size: 1.25rem;
+    padding: 0.25rem 0;
+    position: relative;
+}
+
+.modal-header div {
+    display: inline-block;
+}
+
+.modal-header .close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.modal-header .close:hover {
+    color: #233f61;
+}
+
+.modal-section {
+    padding: 0.25rem 0;
+}
+
+.modal-section .modal-subheader {
+    font-size: 1.1rem;
+}
+
+.modal-section > div:not(.modal-subheader) {
+    padding-left: 0.5rem;
+}

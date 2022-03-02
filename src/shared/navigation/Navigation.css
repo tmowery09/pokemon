@@ -1,0 +1,37 @@
+nav {
+    display: inline-block;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+}
+
+a, a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 0.25rem;
+    padding: 0.5rem;
+}
+
+.link.active,
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+
+    .link {
+        margin-left: 0;
+    }
+
+    nav > a.link:first-child{
+        padding-left: 0;
+    }
+  }

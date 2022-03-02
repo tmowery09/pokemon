@@ -1,0 +1,113 @@
+.body {
+    margin: 2rem auto 5rem;
+}
+
+form {
+    margin: auto;
+    width: 58%;
+}
+
+.instructions {
+    font-style: italic;
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    flex: 12;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+}
+
+label.input-label {
+    margin-top: 0.75rem;
+}
+
+.input {
+    display: flex;
+    flex-shrink: 1;
+}
+
+input[type='text'] {
+    border: 1px solid #666666;
+    border-radius: 0.25rem;
+    flex: 60 1;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #4078bd;
+    border: 1px solid #4372aa;
+    border-radius: 3px;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    white-space: nowrap;
+    flex: 25;
+}
+
+button:disabled,
+button:disabled:hover {
+    cursor: default;
+    opacity: .5;
+}
+
+button:hover {
+    background-color: #4372aa;
+}
+
+.form-buttons {
+    flex: 28;
+    white-space: nowrap;
+}
+
+.form-buttons > * {
+    display: inline-block;
+}
+
+.form-buttons button {
+    width: 65%;
+    margin-right: 0.5rem;
+}
+
+.alert {
+    min-height: 43px;
+    padding-top: 1.5rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.alert > span {
+    animation: fadein 0.25s;  
+}
+
+@media (max-width: 768px) {
+    .body,
+    form {
+        width: 100%;
+    }
+
+    button {
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+
+    input[type='text'] {
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .input,
+    .input > * {
+        display: block;
+    }
+
+    .input-label {
+        margin-left: 0.5rem;
+    }
+  }

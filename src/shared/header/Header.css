@@ -1,0 +1,15 @@
+
+.header {
+    display: block;
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .title {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+  }
