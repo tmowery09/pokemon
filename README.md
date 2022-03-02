@@ -1,4 +1,4 @@
-# StarTree App Exercise
+# Pokemon API Exercise
 
 Lightweight Pokemon Info React application. Tracks the following values in the UI across two pages: 
 - pokemon name
