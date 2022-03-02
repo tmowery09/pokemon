@@ -13,11 +13,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to Implement
 
 Via Github: 
-Navigate to https://github.com/tmowery09/pokemon
-Under the Code button, copy the link to clone the repository
-Run npm install inside the dir with package.json
-Run npm start in dir with package.json
-App will launch in default browser
+- Navigate to https://github.com/tmowery09/pokemon
+- Under the Code button, copy the link to clone the repository
+- Run npm install inside the dir with package.json
+- Run npm start in dir with package.json
+- App will launch in default browser
 
 ## Additional Notes for Reviewer
 Thank you for giving me the opportunity to build this app, and also for taking the time to review it! Although I know we have a meeting to discuss the app & to help you get a sense of my thought process, there were a few things I wanted to add:
